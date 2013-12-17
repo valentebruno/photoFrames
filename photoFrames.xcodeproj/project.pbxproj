@@ -107,6 +107,9 @@
 		2419015E185F9BE700BADCEE /* photoFrames */ = {
 			isa = PBXGroup;
 			children = (
+				24A494A418609D9E0082A7AE /* Model */,
+				24A494A318609D880082A7AE /* View */,
+				24A494A218609D7A0082A7AE /* Controller */,
 				24190167185F9BE700BADCEE /* AppDelegate.h */,
 				24190168185F9BE700BADCEE /* AppDelegate.m */,
 				2419016A185F9BE700BADCEE /* Images.xcassets */,
@@ -142,6 +145,27 @@
 				2419017A185F9BE700BADCEE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24A494A218609D7A0082A7AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24A494A318609D880082A7AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24A494A418609D9E0082A7AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +467,7 @@
 				24190183185F9BE700BADCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24190184185F9BE700BADCEE /* Build configuration list for PBXNativeTarget "photoFramesTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +476,7 @@
 				24190186185F9BE700BADCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
